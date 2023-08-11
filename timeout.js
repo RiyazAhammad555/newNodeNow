@@ -4,3 +4,4 @@ const pro = new Promise((resolve, reject) => {
     }, 2000)
 })
 pro.then((res) => { console.log(res) }).catch((err) => { console.log(err) })
+console.log('hello world')
